@@ -1,0 +1,107 @@
+body {
+    background: linear-gradient(rgb(255, 84, 0), black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login {
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    background: url('Logotipo-fogo.png');
+    color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px black;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 40% 15%;
+    font-family: "Science Gothic", sans-serif;
+}
+
+form {
+    display: block;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    flex-direction: column;
+    display: flex;
+    gap: 5px;
+
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin-bottom: 60px;
+}
+
+
+label {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding-left: 10px;
+}
+
+
+input {
+    background: rgba(255, 255, 255, 0.3);
+    all: unset;
+    border: 2px solid rgba(255, 89, 0, 0.612);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 1px 11px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    background: rgba(45, 126, 231,);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 40px;
+    border: none;
+    font-size: 16px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    color: black;
+    cursor: pointer;
+    font-family: "Science Gothic", sans-serif;
+}
+
+.campo-senha {
+  position: relative;
+    width: 100%;
+}
+
+.campo-senha input {
+  width: 100%;
+  padding-right: 40px; /* espaço para o botão do olho */
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn-olho {
+  position: absolute;
+  transform: translateX(8%);
+  display: inline-block;
+  right: 50px;
+  top: 55%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+  opacity: 0.5; /* transparência */
+  color: white;
+}
+
+.btn-olho:hover {
+  opacity: 0.9;
+}
